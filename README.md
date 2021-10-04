@@ -39,3 +39,9 @@ Installation:
   - Enter the environment where your kachery-client is installed, ensuring kachery-daemon is running with the above configuration completed.
   - Run the test file in this repo: DataRetrieval.py
   - If you get a load json printed out in the console the setup has succeeded.
+
+Troubleshooting
+
+1. If you have used kachery in the past, ensure the most recent version is installed, of both the daemon and the client.
+2. On upgrading, my node started running with a differnt node ID, making me unable to retrieve data.
+  - If this is the case for you, remove the old kachery-node from kacheryhub and add the new one, with the required spikeforest config.
